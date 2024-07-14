@@ -1,0 +1,8 @@
+def rec(sum,n,m):
+    if(n>m):
+        return sum
+    return n+rec(sum,n+1,m)
+n=int(input())
+m=int(input())
+sum=0
+print(rec(sum,n,m))
